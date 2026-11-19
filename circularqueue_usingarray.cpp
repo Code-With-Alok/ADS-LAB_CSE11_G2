@@ -91,5 +91,7 @@ int main(){
     cout<<"front :"<<q.front()<<endl;
     cout<<"rear:"<<q.rear()<<endl;
     q.pop();
-    cout<<q.size()<<endl;
+cout << q.size() << endl;
+cout << "This program is written by Alok Sharan 2500320100153 CSE11" << endl;
+
 }
