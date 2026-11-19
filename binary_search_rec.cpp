@@ -15,10 +15,11 @@ int main() {
     cout << "Enter size of array: ";
     cin >> n;
 
-    if (n <= 0) {
-        cout << "Array size must be positive." << endl;
-        return 0;
-    }
+if (n <= 0) {
+    cout << "Array size must be positive." << endl;
+    cout << "This program is written by Alok Sharan 2500320100153 CSE11" << endl;
+    return 0;
+}
 
     int* arr = new int[n];
     cout << "Enter " << n << " elements in sorted order: ";
@@ -33,5 +34,6 @@ int main() {
     else cout << "Element found at index: " << loc << endl;
 
     delete[] arr;
-    return 0;
+cout << "This program is written by Alok Sharan 2500320100153 CSE11" << endl;
+return 0;
 }
